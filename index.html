@@ -20,22 +20,49 @@
 </head>
 <style>
 body, html {
-    height: 100%;
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
 }
 
-.bg { 
-    /* The image used */
-    background-image: url("http://i.stack.imgur.com/spmUM.gif");
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+.bgimg-1 {
+     background-image: url("http://i.stack.imgur.com/spmUM.gif");
+  height: 100%;
 }
 
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+	
 	
 .footer {
    position: fixed;
@@ -49,7 +76,7 @@ body, html {
 </style>
 <body id="page-top">
 
-<div class="bg"></div>
+
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="mainNav">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,8 +107,18 @@ body, html {
             </ul>
         </div>
     </nav>
-    
-<!-- about section -->
+ 
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border">hi, I'm Kitu Komya! </span><br>
+    <span class="border">UCLA</span>
+  </div>
+</div>
+
+<p style="padding:5px 15px">This example creates a full page background image. Try to resize the browser window to see how it always will cover the full screen (when scrolled to top), and that it scales nicely on all screen sizes.</p>
+
+	
+<!-- about section
     <section id="about">
         <div class="container">              
                 <div class="col-lg-8 mx-auto">
@@ -90,7 +127,7 @@ body, html {
 			
                     <div class="col-md-4 col-lg-12 col-sm-12 col-xs-12"> </div>
                     <div class="col-md-4 col-lg-12 col-sm-12 col-xs-12"> 
-                        <!-- github and linkedin icons -->
+                        <!-- github and linkedin icons
                         <div class = "icons">
                             <a href="https://github.com/key2-success" class="fa fa-github"></a>
                             <a href="https://www.linkedin.com/in/kitu-komya/" class="fa fa-linkedin"></a>
@@ -100,7 +137,7 @@ body, html {
             </div>
         </div>
     </section>
-<br>
+<br>-->
 	<br>
 	<br>
     <div id = "footer">
@@ -122,4 +159,8 @@ body, html {
     <script src="js/scrolling-nav.js"></script>
 
 </body>
+
 </html>
+
+
+
