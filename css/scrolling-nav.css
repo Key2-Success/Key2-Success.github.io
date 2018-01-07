@@ -22,7 +22,7 @@ section {
 .navbar {
     background-color: gray;
     border: none !important;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 20px;
     text-align: center;
 }
@@ -61,12 +61,12 @@ div.navbar-default > div.container
 #title {
 	text-align: center;
 	font-family: 'Arial', sans-serif;
-  	font-size: 80px;
+  	font-size: 70px;
   	color:  #EF551F ;
 }
 #title2 {
 	text-align: left;
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Arial', sans-serif;
   	font-size: 60px;
   	color:  #EF551F ;
 	text-transform: uppercase;
@@ -75,7 +75,7 @@ div.navbar-default > div.container
 
 #subtitle {
 	text-align: left;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 18px;
     font-weight: lighter;
     color:  black ;
