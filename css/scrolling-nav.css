@@ -70,13 +70,6 @@ div.navbar-default > div.container
   	color:  #EF551F ;
 	text-transform: uppercase;
 }
-#cent {
-	text-align: center;
-	font-family: 'Helvetica', sans-serif;
-  	font-size: 40px;
-  	color:  #EF551F ;
-	text-transform: uppercase;
-}
 
 
 #subtitle {
@@ -155,10 +148,6 @@ a:hover {
 .container {
   position: relative;
 }
-
-
-
-
 
 
 
