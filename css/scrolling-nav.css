@@ -1,12 +1,27 @@
 body {
 	padding-top: 54px;
-	background-image: url("http://i.stack.imgur.com/spmUM.gif");
   	text-align: center;
   	font-family: 'Arial', sans-serif;
   	font-size: 20px;
   	font-weight: lighter;
   	color:  #000000;
   	margin-bottom: 80px;
+}
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("http://i.stack.imgur.com/spmUM.gif");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media (min-width: 992px) {
