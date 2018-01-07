@@ -20,7 +20,7 @@ section {
 }
 
 .navbar {
-    background-color: #C0C0C0;
+    background-color: gray;
     border: none !important;
     font-family: 'Helvetica', sans-serif;
     font-size: 20px;
@@ -55,13 +55,13 @@ ul.nav a:hover {
 }
 
 div.navbar-default > div.container 
-{background-color: #C0C0C0;}
+{background-color: #gray;}
 
 /* INDEX PAGE */
 #title {
 	text-align: center;
-	font-family: 'Brush Script MT', cursive;
-  	font-size: 70px;
+	font-family: 'Arial', sans-serif;
+  	font-size: 80px;
   	color:  #EF551F ;
 }
 #title2 {
@@ -86,7 +86,7 @@ div.navbar-default > div.container
     font-family: 'Helvetica', sans-serif;
     font-size: 16px;
     font-weight: lighter;
-    color:  black ;
+    color:  white;
 }
 
 
@@ -100,7 +100,7 @@ div.navbar-default > div.container
     width: 50px !important; 
     text-decoration: none;
     border-radius: 50%;
-    color: black;
+    color: white;
 }
 
 .fa:hover {
