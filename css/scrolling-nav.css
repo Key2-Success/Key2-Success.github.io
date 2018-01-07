@@ -81,7 +81,7 @@ div.navbar-default > div.container
 
 #subtitle {
 	text-align: left;
-    font-family: 'Gill Sans', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 18px;
     font-weight: lighter;
     color:  black ;
@@ -89,7 +89,7 @@ div.navbar-default > div.container
 
 #footer {
 	text-align: center;
-    font-family: 'Gill Sans', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 16px;
     font-weight: lighter;
     color:  #C0C0C0 ;
