@@ -1,7 +1,7 @@
 body {
 	padding-top: 54px;
   	text-align: center;
-  	font-family: 'Gill Sans', sans-serif;
+  	font-family: 'Helvetica', sans-serif;
   	font-size: 20px;
   	font-weight: lighter;
   	color:  #000000;
@@ -21,7 +21,7 @@ section {
 .navbar {
     background-color: #C0C0C0;
     border: none !important;
-    font-family: 'Gill Sans', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 20px;
     text-align: center;
 }
@@ -48,7 +48,7 @@ ul.nav a:visited {
 }
 
 ul.nav a:hover {
-    color: #48CCCD!important;
+    color: #EF551F !important;
     background-color: transparent;
     text-decoration:none;
 }
@@ -61,20 +61,20 @@ div.navbar-default > div.container
 	text-align: center;
 	font-family: 'Brush Script MT', cursive;
   	font-size: 70px;
-  	color:  #48CCCD ;
+  	color:  #EF551F ;
 }
 #title2 {
 	text-align: left;
-	font-family: 'Gill Sans', sans-serif;
+	font-family: 'Helvetica', sans-serif;
   	font-size: 60px;
-  	color:  #48CCCD ;
+  	color:  #EF551F ;
 	text-transform: uppercase;
 }
 #cent {
 	text-align: center;
-	font-family: 'Gill Sans', sans-serif;
+	font-family: 'Helvetica', sans-serif;
   	font-size: 40px;
-  	color:  #48CCCD ;
+  	color:  #EF551F ;
 	text-transform: uppercase;
 }
 
@@ -110,7 +110,7 @@ div.navbar-default > div.container
 }
 
 .fa:hover {
-	color: #48CCCD;
+	color: #EF551F;
 }
 
 .icons {
@@ -141,13 +141,13 @@ div.navbar-default > div.container
 }
 
 a {
-	color:#48CCCD;
+	color:##EF551F;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: #48CCCD !important;
+    color: #EF551F !important;
     background-color: transparent;
     text-decoration:none;
 }
@@ -155,28 +155,6 @@ a:hover {
 .container {
   position: relative;
 }
-
-/* MODAL */
-.modal-title {
-  color: #48CCCD ;
-  font-size: 30px !important;
-}
-
-.modaltext {
-    color: black !important;
-    font-size:18px;
-    text-align: left;
-}
-
-#jobTitle {
-	font-size: 25px;
-}
-
-#date {
-	color : black !important;
-	font-size: 20px;
-}
-
 
 
 
@@ -268,26 +246,12 @@ a:hover {
 }
 
 
-/* MODAL */
-.modal-title {
-  color: #48CCCD ;
-  font-size: 30px;
-}
-
-.modaltext {
-    color: black !important;
-    font-size: 18px;
-}
-
-.modaltitle {
-  color: #48CCCD !important;
-}
 
 
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #48CCCD!important;
-    border: #48CCCD!important;
+    background-color: #EF551F!important;
+    border: #EF551F!important;
   	color: white\ !important;
   	border-radius: 25%;
 }
